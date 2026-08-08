@@ -1,6 +1,6 @@
 # ZDR
 
-Dart-Zähler als Web-App: X01 (301/501/701), Cricket und Around the Clock.
+Dart-Zähler als Web-App: X01 (301/501/701), Cricket, Around the Clock, Shanghai, Count Up und Halve It.
 Läuft im Browser, lässt sich auf dem Handy als App installieren und funktioniert danach auch ohne Netz.
 
 ## Funktionen
@@ -14,10 +14,16 @@ Läuft im Browser, lässt sich auf dem Handy als App installieren und funktionie
 
 **Cricket** – normal und Cut Throat, klassische Tafel mit Marks, Punkten und MPR.
 
-**Around the Clock** – 1 bis 20 und Bull, Platzierung nach Darts.
+**Around the Clock** – 1 bis 20 und Bull der Reihe nach, Platzierung nach Darts.
+
+**Shanghai** – Runde 1 auf die 1, Runde 2 auf die 2 und so weiter. Einfach, doppelt und dreifach derselben Zahl in einer Aufnahme gewinnt sofort.
+
+**Count Up** – Punktesammeln über feste Runden, höchste Summe gewinnt.
+
+**Halve It** – feste Ziele je Runde (20, 19, 18, Doppel, 17, Dreifach, genau 41, Bull). Keine Zahl getroffen heißt Punktestand halbiert. Start bei 40.
 
 **Allgemein**
-- Dart einzeln löschen, Aufnahmen Schritt für Schritt zurücknehmen
+- „Dart zurück" nimmt einzelne Würfe zurück, auch über den Spielerwechsel hinaus
 - Gespeicherte Spielernamen, Verlauf der letzten 30 Spiele, gemerkte Einstellungen
 - Animationen bei 100+, 140+, 180, Checkouts, Nine Darter und Bust
 
@@ -54,4 +60,4 @@ und wer die Browserdaten löscht, löscht auch den Verlauf.
 ## Updates einspielen
 
 Geänderte Dateien im Repo ersetzen. Damit installierte Geräte die neue Version sicher ziehen,
-in `sw.js` die Zeile `const CACHE = "zdr-v1";` hochzählen, z. B. auf `zdr-v2`.
+in `sw.js` die Zeile `const CACHE = "zdr-v2";` hochzählen, z. B. auf `zdr-v3`.

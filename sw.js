@@ -1,5 +1,5 @@
 /* ZDR — Service Worker: App läuft auch ohne Netz. */
-const CACHE = "zdr-v1";
+const CACHE = "zdr-v2";
 const SHELL = [
   "./",
   "./index.html",

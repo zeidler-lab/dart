@@ -1,7 +1,7 @@
 {
   "name": "ZDR — Dart",
   "short_name": "ZDR",
-  "description": "Dart-Zähler für X01, Cricket und Around the Clock. Mit Finish-Wegen, Statistik und Verlauf.",
+  "description": "Dart-Zähler für X01, Cricket, Around the Clock, Shanghai, Count Up und Halve It. Mit Finish-Wegen, Statistik und Verlauf.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
